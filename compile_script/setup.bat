@@ -8,6 +8,6 @@ echo %msbuild_path%
 
 echo %msbuild_path%
 
-"%msbuild_path%MSBuild.exe" C:\Users\TEMP.PD.002\Desktop\dummy\dummy\dummy.vcxproj
+"%msbuild_path%MSBuild.exe" ..\code\SineGraph.sln
 
 pause
