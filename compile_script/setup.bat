@@ -11,3 +11,6 @@ echo %msbuild_path%
 "%msbuild_path%MSBuild.exe" ..\code\SineGraph.sln
 
 pause
+
+
+//copy .\code\Debug\SineGraph.exe copied.exe
