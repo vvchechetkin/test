@@ -11,7 +11,7 @@ echo %msbuild_path%
 
 echo %msbuild_path%
 
-"%msbuild_path%MSBuild.exe" test\code\SineGraph.sln
+"%msbuild_path%MSBuild.exe" test\code\SineGraph.sln /property:Configuration=Release
 copy test\code\Debug\SineGraph.exe copied.exe
 rd /s /q test
 
